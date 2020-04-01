@@ -17,7 +17,7 @@ ENV JAVA_VERSION_MAJOR=8 \
     XMAGE_DOCKER_SEONDARY_BIND_PORT="17179" \
     XMAGE_DOCKER_MAX_SECONDS_IDLE="600" \
     XMAGE_DOCKER_AUTHENTICATION_ACTIVATED="false" \
-    XMAGE_DOCKER_SERVER_NAME="bobdebouwer.net"
+    XMAGE_DOCKER_SERVER_NAME="xmage.westeurope.azurecontainer.io"
 
 # do all in one step
 RUN set -ex && \
