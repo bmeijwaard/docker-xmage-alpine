@@ -12,12 +12,12 @@ ENV JAVA_VERSION_MAJOR=8 \
     PATH=${PATH}:/opt/jdk/bin \
     GLIBC_VERSION=2.23-r3 \
     LANG=C.UTF-8 \
-    XMAGE_DOCKER_SERVER_ADDRESS="xmage.westeurope.azurecontainer.io" \
+    XMAGE_DOCKER_SERVER_ADDRESS="0.0.0.0" \
     XMAGE_DOCKER_PORT="17171" \
     XMAGE_DOCKER_SEONDARY_BIND_PORT="17179" \
     XMAGE_DOCKER_MAX_SECONDS_IDLE="600" \
     XMAGE_DOCKER_AUTHENTICATION_ACTIVATED="false" \
-    XMAGE_DOCKER_SERVER_NAME="xmage.westeurope.azurecontainer.io"
+    XMAGE_DOCKER_SERVER_NAME="bobdebouwer.net"
 
 # do all in one step
 RUN set -ex && \
